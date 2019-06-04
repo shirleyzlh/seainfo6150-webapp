@@ -1,12 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import {Render} from './Article'
 
 const App = ({ article }) => {
-  return (
-    <div className="App">
-      
-    </div>
-  );
+  return <Render article={article}/>  
 }
 
 App.propTypes = {
