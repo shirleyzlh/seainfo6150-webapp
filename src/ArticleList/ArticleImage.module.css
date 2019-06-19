@@ -1,0 +1,7 @@
+.image{
+    margin-top: 1rem;
+    width: 80%;
+    border: 15px #CB0000 solid;
+    border-radius: 50%;
+    box-shadow: 0 15px 10px #717171;
+}

@@ -5,7 +5,11 @@
     padding: 10px 25px 20px;
     width: 55rem;
     border: 2px solid #CB0000;
+    border-radius: 15px;
+    box-shadow: 0 15px 10px gray;
     background-color: #EEEEEE;
+    display: flex;
+    background-image: linear-gradient(to right, #FFC1CC, #EEEEEE 15%);
 }
 
 .title {
@@ -18,4 +22,12 @@
 
 .dateTime {
     font-weight: bold;
+}
+
+.articleImage {
+    width: 30%;
+}
+
+.articleContent {
+    width: 70%;
 }

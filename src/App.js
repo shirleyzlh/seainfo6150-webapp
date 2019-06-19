@@ -8,15 +8,4 @@ const App = ({ articles }) => {
   </div>;
 };
 
-App.propTypes = {
-  articles: PropTypes.arrayOf(
-    PropTypes.shape({
-      title: PropTypes.string.isRequired,
-      shortText: PropTypes.string.isRequired,
-      pubDate: PropTypes.string.isRequired,
-      pubYear: PropTypes.string.isRequired,
-      author: PropTypes.string.isRequired
-    })
-  ).isRequired
-};
 export default App;
