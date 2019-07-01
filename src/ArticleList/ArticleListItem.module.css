@@ -3,10 +3,8 @@
     margin-left: 1em;
     margin-right: 1em;
     padding: 10px 25px 20px;
-    width: 55rem;
+    width: 20rem;
     border: 2px solid #CB0000;
-    border-radius: 15px;
-    box-shadow: 0 15px 10px gray;
     background-color: #EEEEEE;
     display: flex;
     background-image: linear-gradient(to right, #FFC1CC, #EEEEEE 15%);
@@ -14,10 +12,15 @@
 
 .title {
     color: #CB0000;
+    font-size: 1.65rem;
 }
 
 .main {
-    text-align: right;
+    font-size: 1.1rem;
+}
+
+.text {
+    font-size: 1.1rem;
 }
 
 .dateTime {
@@ -25,9 +28,5 @@
 }
 
 .articleImage {
-    width: 30%;
-}
-
-.articleContent {
-    width: 70%;
+    width: 55%;
 }

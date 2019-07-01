@@ -1,9 +1,7 @@
 .articles {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-column-gap: 30px;
     background: #999;
     padding: 50px;
-    border-style: dashed;
-    border-color: #666666;
-    border-radius: 15px;
-    box-shadow: 0 15px 10px gray;
-    width: 60rem;
 }

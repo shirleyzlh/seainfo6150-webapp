@@ -5,13 +5,13 @@ import ArticleImage from './ArticleImage'
 
 const ArticleListItem = ({ title, shortText, pubDate, pubYear, author, url }) => (
     <div className={styles.articleItem}>
-        <div className={styles.articleImage}>
-            <ArticleImage url={url} title={title}/>
-        </div>
-        <div className={styles.articleContent}>
+        <div>
+            <div className={styles.articleImage}>
+                <ArticleImage url={url} title={title}/>
+            </div>
             <header>
                 <h1 className={styles.title}>{title}</h1>
-                <p>{shortText}</p>
+                <p className={styles.text}>{shortText}</p>
                 <br />
             </header>
             <main className={styles.main}>
