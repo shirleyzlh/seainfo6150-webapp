@@ -4,4 +4,11 @@
     grid-column-gap: 30px;
     background: #999;
     padding: 50px;
+    min-width: 24.8rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .articles {
+    background: lightgray;
+  }
 }

@@ -12,11 +12,6 @@
 
 .title {
     color: #CB0000;
-    font-size: 1.65rem;
-}
-
-.main {
-    font-size: 1.1rem;
 }
 
 .text {
@@ -29,4 +24,24 @@
 
 .articleImage {
     width: 55%;
+}
+
+@media (max-width: 800px) {
+  .title {
+    font-size: 1.7rem;
+  }
+
+  .main {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .main {
+    font-size: 1rem;
+  }
 }

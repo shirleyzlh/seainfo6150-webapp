@@ -7,6 +7,7 @@
     padding: 4rem;
     align-items: center;
     justify-content: space-between;
+    min-width: 23rem;
 }
 
 .title{
@@ -16,4 +17,13 @@
 
 .time{
     font-size: 1.2rem;
+}
+
+@media (max-width: 600px) {
+    .title {
+        font-size: 1.5rem;
+    }
+    .time {
+        font-size: 1rem;
+    }
 }
